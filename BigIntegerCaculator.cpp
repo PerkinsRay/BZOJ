@@ -1,26 +1,36 @@
+#include<string>
+#include<iostream>
+#include<memory>
+#include<map>
+#include<vector>
+#include<stack>
+using namespace std;
+#define __int64 long long
+#define ArryLen 32
+#define ArryMax (ArryLen-2)
 class BigInterger {
-	unsigned __int64 arr[32];
+	unsigned __int64 arr[ArryLen];
 	friend ostream & operator<<(ostream &out, const BigInterger &obj);
 	friend istream & operator>>(istream &out, BigInterger &obj);
 
 public:
 	BigInterger() {
-		for (int i = 0; i < 32; i++)
+		for (int i = 0; i < ArryLen; i++)
 			arr[i] = 0;
 	}
 	BigInterger(unsigned __int64 i) {
-		for (int i = 0; i < 31; i++)
+		for (int i = 0; i < ArryMax; i++)
 			arr[i] = 0;
-		arr[31] = i;
+		arr[ArryMax] = i;
 	}
 	BigInterger(string  t) {
-		for (int i = 0; i < 32; i++)
+		for (int i = 0; i < ArryLen; i++)
 			arr[i] = 0;
 		if (t.compare(0, 2, "0x") == 0) {
 			int L = t.length() - 2;
 			if (L > 0 && t[0] == '0' && t[1] == 'x') {
 				t = t.substr(2);
-				int i = 31;
+				int i = ArryMax;
 				while (L > 0) {
 					if (L > 16)
 						arr[i--] = std::stoull(t.substr(L - 16, 16), 0, 16);
@@ -37,7 +47,7 @@ public:
 			while (L > 0) {
 				
 				if (L > 19) {
-					*this *= 10000000000000000000;
+					*this *= 10000000000000000000ULL;
 					*this += std::stoull(t.substr(0, 19), 0, 10);
 					t = t.substr(19);
 				}
@@ -55,7 +65,7 @@ public:
 	BigInterger operator+(const BigInterger& right) const {
 		BigInterger Ret;
 		unsigned int overflow = 0;
-		for (int i = 31; i >= 0; i--) {
+		for (int i = ArryMax; i >= 0; i--) {
 			Ret.arr[i] = arr[i] + right.arr[i] + overflow;
 			overflow = (Ret.arr[i] < right.arr[i]) || (overflow && (Ret.arr[i] == right.arr[i]));
 		}
@@ -64,7 +74,7 @@ public:
 	BigInterger operator-(const BigInterger& right) const {
 		BigInterger Ret;
 		unsigned int overflow = 0;
-		for (int i = 31; i >= 0; i--) {
+		for (int i = ArryMax; i >= 0; i--) {
 			unsigned int overflown = (right.arr[i] > arr[i]) || (overflow && (right.arr[i] == arr[i]));
 			Ret.arr[i] = arr[i] - right.arr[i] - overflow;
 			overflow = overflown;
@@ -79,7 +89,7 @@ public:
 			throw string("overflow!");
 		while (m) {
 			Ret *= Ret;
-			if (m&s.arr[31])
+			if (m&s.arr[ArryMax])
 				Ret *= *this;
 			m >>= 1;
 
@@ -88,7 +98,7 @@ public:
 	}
 	BigInterger& operator+=(const BigInterger& right) {
 		unsigned int overflow = 0;
-		for (int i = 31; i >= 0; i--) {
+		for (int i = ArryMax; i >= 0; i--) {
 			arr[i] = arr[i] + right.arr[i] + overflow;
 			overflow = (arr[i] < right.arr[i]) || (overflow && (arr[i] == right.arr[i]));
 		}
@@ -96,7 +106,7 @@ public:
 	}
 	BigInterger& operator-=(const BigInterger& right) {
 		unsigned int overflow = 0;
-		for (int i = 31; i >= 0; i--) {
+		for (int i = ArryMax; i >= 0; i--) {
 			unsigned int overflown = (right.arr[i] > arr[i]) || (overflow && (right.arr[i] == arr[i]));
 			arr[i] = arr[i] - right.arr[i] - overflow;
 			overflow = overflown;
@@ -104,7 +114,7 @@ public:
 		return *this;
 	}
 	bool operator>(const BigInterger& right) const {
-		for (int i = 0; i < 32; i++) {
+		for (int i = 0; i < ArryLen; i++) {
 			if (arr[i] > right.arr[i])
 				return true;
 			if (arr[i] < right.arr[i])
@@ -115,7 +125,7 @@ public:
 	BigInterger operator<<(int right) const {
 		BigInterger Ret;
 		unsigned __int64 overflow = 0;
-		for (int i = 31; i >= 0; i--) {
+		for (int i = ArryMax; i >= 0; i--) {
 			unsigned __int64 overflown = arr[i] >> (64 - right);
 			Ret.arr[i] = (arr[i] << right) | overflow;
 			overflow = overflown;
@@ -125,7 +135,7 @@ public:
 	BigInterger operator>>(int right) const {
 		BigInterger Ret;
 		unsigned __int64 overflow = 0;
-		for (int i = 0; i < 32; i++) {
+		for (int i = 0; i < ArryLen; i++) {
 			unsigned __int64 overflown = arr[i] << (64 - right);
 			Ret.arr[i] = (arr[i] >> right) | overflow;
 			overflow = overflown;
@@ -134,7 +144,7 @@ public:
 	}
 	BigInterger& operator>>=(int right) {
 		unsigned __int64 overflow = 0;
-		for (int i = 0; i < 32; i++) {
+		for (int i = 0; i < ArryLen; i++) {
 			unsigned __int64 overflown = arr[i] << (64 - right);
 			arr[i] = (arr[i] >> right) | overflow;
 			overflow = overflown;
@@ -144,7 +154,7 @@ public:
 
 	BigInterger& operator<<=(int right) {
 		unsigned __int64 overflow = 0;
-		for (int i = 31; i >= 0; i--) {
+		for (int i = ArryMax; i >= 0; i--) {
 			unsigned __int64 overflown = arr[i] >> (64 - right);
 			arr[i] = (arr[i] << right) | overflow;
 			overflow = overflown;
@@ -152,13 +162,13 @@ public:
 		return *this;
 	}
 	__int64 operator&(__int64 right) {
-		return arr[31] & right;
+		return arr[ArryMax] & right;
 	}
 	BigInterger operator*(BigInterger right) const {
 		BigInterger Ret;
 		BigInterger tmp2 = *this;
 		int Max = 2048;
-		for (int i = 0; i < 32 && right.arr[i] == 0; i++) {
+		for (int i = 0; i < ArryLen && right.arr[i] == 0; i++) {
 			Max -= 64;
 		}
 		for (int i = 0; i < Max; i++)
@@ -173,7 +183,7 @@ public:
 	}
 
 	bool operator==(const BigInterger& right) const {
-		for (int i = 0; i< 32; i++) {
+		for (int i = 0; i< ArryLen; i++) {
 			if (arr[i] != right.arr[i])
 				return false;
 		}
@@ -205,7 +215,7 @@ public:
 		BigInterger tmp2 = *this;
 		*this = 0;
 		int Max = 2048;
-		for (int i = 0; i < 32 && right.arr[i] == 0; i++) {
+		for (int i = 0; i < ArryLen && right.arr[i] == 0; i++) {
 			Max -= 64;
 		}
 		for (int i = 0; i < Max; i++)
@@ -275,7 +285,7 @@ istream & operator>>(istream &in, BigInterger &obj) {
 		int L = t.length() - 2;
 		if (L > 0 && t[0] == '0' && t[1] == 'x') {
 			t = t.substr(2);
-			int i = 31;
+			int i = ArryMax;
 			while (L > 0) {
 				if (L > 16)
 					obj.arr[i--] = std::stoull(t.substr(L - 16, 16), 0, 16);
@@ -290,7 +300,7 @@ istream & operator>>(istream &in, BigInterger &obj) {
 		int L = t.length();
 
 		while (L > 0) {
-			obj *= 10000000000000000000;
+			obj *= 10000000000000000000ULL;
 			if (L > 19) {
 				obj += std::stoull(t.substr(0, 19), 0, 10);
 				t = t.substr(0, 19);
@@ -307,10 +317,10 @@ ostream & operator<<(ostream &out, const BigInterger &obj)
 {
 	if (out.flags()&out.hex) {
 		int i = 0;
-		for (; i < 31 && !obj.arr[i]; i++);
+		for (; i < ArryMax && !obj.arr[i]; i++);
 		out << "0x";
 		out << obj.arr[i++];
-		for (; i < 32; i++) {
+		for (; i < ArryLen; i++) {
 			
 			cout.fill('0');
 			cout.width(16);
@@ -320,11 +330,11 @@ ostream & operator<<(ostream &out, const BigInterger &obj)
 	else {
 		BigInterger tmp(obj);
 		stack<unsigned long long> st;
-		while (tmp > 10000000000000000000) {	
-			st.push((tmp % 10000000000000000000).arr[31]);
-			tmp /= 10000000000000000000;
+		while (tmp > 10000000000000000000ULL) {	
+			st.push((tmp % 10000000000000000000ULL).arr[ArryMax]);
+			tmp /= 10000000000000000000ULL;
 		}
-		cout<<tmp.arr[31];
+		cout<<tmp.arr[ArryMax];
 		
 		while (!st.empty()) {
 			cout.fill('0');
@@ -524,3 +534,22 @@ funcMap NopN::opMap(
 			return (a , b);
 		})
 	});
+
+int main(){
+	string ex;
+	while(true){
+		try{
+			getline(cin,ex);
+			int start=0;
+			auto e=GetExp(ex,start,ex.length());
+			cout<<e->GetVal()<<endl;
+		}
+		catch(string e){
+			cout<<e<<endl;
+		}
+	}	
+
+
+
+
+}
