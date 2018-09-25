@@ -195,7 +195,7 @@ public:
 		BigInterger tmp2 = *this;
 		BigInterger tmp(1);
 		int Max = 0;
-		for (int i = 0; !(right.arr[0] & 0x800000000000000) && (tmp2 > right); i++) {
+		for (int i = 0; !(right.arr[0] & 0x8000000000000000ULL) && (tmp2 > right); i++) {
 			Max += 1;
 			right <<= 1;
 			tmp <<= 1;
@@ -237,7 +237,7 @@ public:
 		BigInterger tmp(1);
 		
 		int Max = 0;
-		for (int i = 0; !(right.arr[0] & 0x800000000000000) && (tmp2 > right); i++) {
+		for (int i = 0; !(right.arr[0] & 0x8000000000000000ULL) && (tmp2 > right); i++) {
 			Max += 1;
 			right <<= 1;
 			tmp <<= 1;
@@ -259,7 +259,7 @@ public:
 		BigInterger Ret;
 		BigInterger tmp(1);
 		int Max = 0;
-		for (int i = 0; !(right.arr[0] & 0x800000000000000) && (*this > right); i++) {
+		for (int i = 0; !(right.arr[0] & 0x8000000000000000ULL) && (*this > right); i++) {
 			Max += 1;
 			right <<= 1;
 			tmp <<= 1;

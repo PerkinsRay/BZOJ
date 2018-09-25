@@ -1,267 +1,84 @@
-#include <experimental/coroutine>
-#include <variant>
-#include <stdexcept>
-#include <stdio.h>
 
-template <typename T>
-struct generator
+#ifndef ASIAFUTFLOATPNLTRACKER_H
+#define ASIAFUTFLOATPNLTRACKER_H
+
+#include <bb/core/hash_map.h>
+#include <bb/core/compat.h>
+#include <bb/core/Log.h>
+#include <bb/core/acct.h>
+#include <bb/core/instrument.h>
+#include <bb/core/side.h>
+#include <stdint.h>
+#include <bb/servers/tdcore/TdRiskControl.h>
+#include <jd/tdcore/PositionOffsetFlag.h>
+#include <unordered_map>
+
+template <class PriceListener>
+class AsiaFutFloatPNLTracker
 {
-    struct promise_type
+    PriceListener m_priceListener;
+    struct CacheEntry
     {
-        std::variant<T const*, std::exception_ptr> value;
-
-        promise_type& get_return_object()
-        {
-            return *this;
-        }
-
-        std::experimental::suspend_always initial_suspend()
-        {
-            return {};
-        }
-
-        std::experimental::suspend_always final_suspend()
-        {
-            return {};
-        }
-
-        std::experimental::suspend_always yield_value(T const& other)
-        {
-            value = std::addressof(other);
-            return {};
-        }
-
-        void return_void()
+        CacheEntry() : m_cost(0), m_position(0)
         {
         }
-
-        template <typename Expression>
-        Expression&& await_transform(Expression&& expression)
-        {
-            static_assert(sizeof(expression) == 0, "co_await is not supported in coroutines of type generator");
-            return std::forward<Expression>(expression);
-        }
-
-        void unhandled_exception()
-        {
-            value = std::move(std::current_exception());
-        }
-
-        void rethrow_if_failed()
-        {
-            if (value.index() == 1)
-            {
-                std::rethrow_exception(std::get<1>(value));
-            }
-        }
+        double m_cost;
+        int m_position;
     };
 
-    using handle_type = std::experimental::coroutine_handle<promise_type>;
-
-    handle_type handle{ nullptr };
-
-    struct iterator
+    struct CacheEntrys
     {
-        using iterator_category = std::input_iterator_tag;
-        using value_type = T;
-        using difference_type = ptrdiff_t;
-        using pointer = T const*;
-        using reference = T const&;
-
-        handle_type handle;
-
-        iterator(std::nullptr_t) : handle(nullptr)
+        CacheEntrys()
         {
         }
-
-        iterator(handle_type handle_type) : handle(handle_type)
+        CacheEntry m_entry[2];
+        CacheEntry &operator[](bb::side_t side)
         {
-        }
-
-        iterator &operator++()
-        {
-            handle.resume();
-
-            if (handle.done())
-            {
-                promise_type& promise = handle.promise();
-                handle = nullptr;
-                promise.rethrow_if_failed();
-            }
-
-            return *this;
-        }
-
-        iterator operator++(int) = delete;
-
-        bool operator==(iterator const& other) const
-        {
-            return handle == other.handle;
-        }
-
-        bool operator!=(iterator const& other) const
-        {
-            return !(*this == other);
-        }
-
-        T const& operator*() const
-        {
-            return *std::get<0>(handle.promise().value);
-        }
-
-        T const* operator->() const
-        {
-            return std::addressof(operator*());
+            return m_entry[reinterpret_cast<int>(side)];
         }
     };
+    std::unordered_map<bb::instrument_t, CacheEntrys> InstrCache;
 
-    iterator begin()
+  public:
+    void fill(const bb::instrument_t &instr, double px, int32_t sz, bb::side_t side, bool isClosingOrder)
     {
-        if (!handle)
+        CacheEntry &cache = InstrCache[instr][side];
+        if (isClosingOrder)
         {
-            return nullptr;
+            if (cache.m_position == 0)
+            {
+                cache.m_cost = 0;
+            }
+            else
+            {
+                int newPos = cache.m_position - sz;
+                if (newPos < 0)
+                {
+                    newPos = 0;
+                }
+                cache.m_cost = cache.m_cost * newPos / cache.m_position;
+                cache.m_position = newPos;
+            }
         }
-
-        handle.resume();
-
-        if (handle.done())
+        else
         {
-            handle.promise().rethrow_if_failed();
-            return nullptr;
+            cache.m_cost += sz * px;
+            cache.m_position += sz;
         }
-
-        return handle;
     }
-
-    iterator end()
+    double getFloatPNL()
     {
-        return nullptr;
-    }
-
-    generator(promise_type& promise) :
-        handle(handle_type::from_promise(promise))
-    {
-    }
-
-    generator() = default;
-    generator(generator const&) = delete;
-    generator &operator=(generator const&) = delete;
-
-    generator(generator&& other) : handle(other.handle)
-    {
-        other.handle = nullptr;
-    }
-
-    generator &operator=(generator&& other)
-    {
-        if (this != &other)
+        double pnl = 0;
+        for (auto &KeyVal : InstrCache)
         {
-            handle = other.handle;
-            other.handle = nullptr;
+            double px = m_priceListener.getPrice(KeyVal.first);
+            auto &cachebid = KeyVal.second[bb::side_t::BID];
+            auto &cacheask = KeyVal.second[bb::side_t::ASK];
+            pnl += (px * cachebid.m_position - cachebid.m_cost);
+            pnl -= (px * cacheask.m_position - cacheask.m_cost);
         }
-
-        return *this;
-    }
-
-    ~generator()
-    {
-        if (handle)
-        {
-            handle.destroy();
-        }
+        return pnl;
     }
 };
 
-template <typename T>
-generator<int> range(T first, T last)
-{
-    while (first != last)
-    {
-        co_yield first++;
-    }
-}
-
-template <typename T>
-generator<int> range1(T first, T last)
-{
-    while (first != last)
-    {
-        throw std::logic_error("BEGIN");
-
-        co_yield first++;
-    }
-}
-
-template <typename T>
-generator<int> range2(T first, T last)
-{
-    while (first != last)
-    {
-        co_yield first++;
-
-        throw std::logic_error("ITERATOR");
-    }
-}
-
-template <typename T>
-generator<int> range4(T first, T last)
-{
-    co_return;
-}
-
-int main()
-{
-    printf("\nrange\n");
-
-    try
-    {
-        for (int i : range(0, 10))
-        {
-            printf("%d\n", i);
-        }
-    }
-    catch (std::exception const& e)
-    {
-        printf("%s\n", e.what());
-    }
-
-    printf("\nrange1\n");
-
-    try
-    {
-        for (int i : range1(0, 10))
-        {
-            printf("%d\n", i);
-        }
-    }
-    catch (std::exception const& e)
-    {
-        printf("%s\n", e.what());
-    }
-
-    printf("\nrange2\n");
-
-    try
-    {
-        for (int i : range2(0, 10))
-        {
-            printf("%d\n", i);
-        }
-    }
-    catch (std::exception const& e)
-    {
-        printf("%s\n", e.what());
-    }
-
-    try
-    {
-        for (int i : range4(0, 10))
-        {
-            printf("%d\n", i);
-        }
-    }
-    catch (std::exception const& e)
-    {
-        printf("%s\n", e.what());
-    }
-}
+#endif

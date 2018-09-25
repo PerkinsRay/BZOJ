@@ -1,0 +1,3191 @@
+{
+    "instruments":
+    {
+        "rb1810":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1810":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1810":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1810":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1810":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1810":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1812":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1902":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1902":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1902":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1902":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1902":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1902":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1902":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1902":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1902":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1808":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1902":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1812":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1812":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1812":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1812":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1812":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1812":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1811":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1807":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1904":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1807":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1807":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1807":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1808":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1807":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1807":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1807":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1807":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1807":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1807":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1807":
+        {
+            "InstrumentID": "ni1807",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "6.3",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "6.3",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "6.3"
+        },
+        "ag1807":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1810":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1906":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1904":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1904":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1904":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1904":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1904":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1904":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1904":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1901":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1808":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1808":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1808":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1808":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1808":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1808":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1808":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1808":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1808":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1808":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1808":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1809":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1909":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1810":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1906":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc2106":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1810":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1810":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1810":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1810":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1810":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1812":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1903":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1808":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1809":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1810":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1811":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1812":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1901":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1902":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1903":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1904":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1905":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cs1807":
+        {
+            "InstrumentID": "cs",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.58",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.58",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "1.58"
+        },
+        "cs1809":
+        {
+            "InstrumentID": "cs",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.58",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.58",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "1.58"
+        },
+        "cs1811":
+        {
+            "InstrumentID": "cs",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.58",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.58",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "1.58"
+        },
+        "cs1901":
+        {
+            "InstrumentID": "cs",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.58",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.58",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "1.58"
+        },
+        "cs1903":
+        {
+            "InstrumentID": "cs",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.58",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.58",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "1.58"
+        },
+        "cs1905":
+        {
+            "InstrumentID": "cs",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.58",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.58",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "1.58"
+        },
+        "fb1807":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1808":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1809":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1810":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1811":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1812":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1901":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1902":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1909":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1906":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1903":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1902":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1901":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1812":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1811":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1809":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1903":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1904":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1905":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc2006":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc2103":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1806":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1807":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1808":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1809":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1810":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1811":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1812":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1901":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1902":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1903":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1904":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jd1905":
+        {
+            "InstrumentID": "jd",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00015757",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00015757",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00015757",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1807":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1808":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1809":
+        {
+            "InstrumentID": "jm1809",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00018907",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00018907",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1810":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1811":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1812":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1901":
+        {
+            "InstrumentID": "jm1901",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00018907",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00018907",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1902":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1903":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1904":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1905":
+        {
+            "InstrumentID": "jm1905",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00018907",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00018907",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1807":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1808":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1809":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1810":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1811":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1812":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1901":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1902":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1903":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1904":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1905":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1901":
+        {
+            "InstrumentID": "ni1901",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "6.3",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "6.3",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "6.3"
+        },
+        "sn1901":
+        {
+            "InstrumentID": "sn1901",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1901":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1901":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1901":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1901":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1901":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1901":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1901":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1901":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu2006":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1906":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1906":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1906":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1906":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1906":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1906":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1906":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1809":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1906":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1906":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1906":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc2003":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1902":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1807":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1810":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc2012":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1901":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc2009":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1912":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1904":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1906":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1812":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1812":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1812":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1912":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1812":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1809":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1809":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1809":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1809":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1809":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1809":
+        {
+            "InstrumentID": "ni1809",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "6.3",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "6.3",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "6.3"
+        },
+        "pb1809":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1809":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1809":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1809":
+        {
+            "InstrumentID": "sn1809",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1809":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1809":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1905":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sc1905":
+        {
+            "InstrumentID": "sc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "8.499999999999998e-07",
+            "OpenRatioByVolume": "21",
+            "CloseRatioByMoney": "8.499999999999998e-07",
+            "CloseRatioByVolume": "21",
+            "CloseTodayRatioByMoney": "8.499999999999998e-07",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fu1903":
+        {
+            "InstrumentID": "fu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00210007",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00210007",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00210007",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1903":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1903":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1903":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1903":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1903":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1903":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1903":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1903":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1903":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1903":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1811":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1811":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1811":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1812":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1811":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1811":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1811":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1811":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1811":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1811":
+        {
+            "InstrumentID": "ni",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "sn1811":
+        {
+            "InstrumentID": "sn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "1.05",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "1.05",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1811":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "jm1906":
+        {
+            "InstrumentID": "jm",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "fb1906":
+        {
+            "InstrumentID": "fb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1906":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pp1906":
+        {
+            "InstrumentID": "pp",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.307e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "6.307e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.307e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1904":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu2003":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1903":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ni1905":
+        {
+            "InstrumentID": "ni1905",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "6.3",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "6.3",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "6.3"
+        },
+        "sn1905":
+        {
+            "InstrumentID": "sn1905",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "rb1905":
+        {
+            "InstrumentID": "rb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "wr1905":
+        {
+            "InstrumentID": "wr",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.207e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ag1905":
+        {
+            "InstrumentID": "ag",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "pb1905":
+        {
+            "InstrumentID": "pb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.207e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.207e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "cu1905":
+        {
+            "InstrumentID": "cu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "5.257000000000001e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "5.257000000000001e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1905":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1905":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1905":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1906":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1811":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1905":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1807":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bb1808":
+        {
+            "InstrumentID": "bb",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "5.257000000000001e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "zn1904":
+        {
+            "InstrumentID": "zn",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "ru1904":
+        {
+            "InstrumentID": "ru",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "4.732e-05",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "4.732e-05",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "4.732e-05",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "al1904":
+        {
+            "InstrumentID": "al",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "3.15",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "3.15",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "au1807":
+        {
+            "InstrumentID": "au",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "6.999999999999999e-08",
+            "OpenRatioByVolume": "10.5",
+            "CloseRatioByMoney": "6.999999999999999e-08",
+            "CloseRatioByVolume": "10.5",
+            "CloseTodayRatioByMoney": "6.999999999999999e-08",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "bu1810":
+        {
+            "InstrumentID": "bu",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        },
+        "hc1904":
+        {
+            "InstrumentID": "hc",
+            "InvestorRange": "3",
+            "BrokerID": "2016",
+            "InvestorID": "08001288",
+            "OpenRatioByMoney": "0.00010507",
+            "OpenRatioByVolume": "0",
+            "CloseRatioByMoney": "0.00010507",
+            "CloseRatioByVolume": "0",
+            "CloseTodayRatioByMoney": "0.00010507",
+            "CloseTodayRatioByVolume": "0"
+        }
+    },
+    "date": "20180621"
+}

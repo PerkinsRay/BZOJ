@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/pliu/Documents/fun/BZOJ/test",
+            "program": "/home/pliu/Documents/fun/BZOJ/a.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
