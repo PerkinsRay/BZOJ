@@ -83,132 +83,24 @@ constexpr const std::array<size_t,sizeof...(Ts)> toArray(const std::tuple<Ts...>
     return do_toArray(T, seq_gen<sizeof...(Ts)>());
 }
 
-constexpr size_t TSIZE=8;
 
-template <size_t N, bool S = N <= TSIZE>
-class GrayCodeGen;
+constexpr bool equal(size_t  a,size_t  b){
+    return a==b;
+}
 
-template <size_t N>
-class GrayCodeGen<N, true>
-{
-    bool reverse;
-    typename std::array<size_t,1<<N>::const_iterator itr;
-    typename std::array<size_t,1<<N>::const_reverse_iterator ritr;
-    static const typename std::array<size_t,1<<N> code ;
 
-  public:
-    GrayCodeGen() : itr(code.begin()),ritr(code.rbegin()),reverse(false)
-    {
-    }
-    auto Next()
-    {
-        if (reverse)
-        {
-            if (ritr != code.rend())
-            {
-                return std::make_tuple(false, *(ritr++));
-            }
-            else
-            {
-                reverse=false;
-                itr=code.begin();
-                return std::make_tuple(true, *(itr++));
-            }
-        }
-        else
-        {
-            if (itr != code.end())
-            {
-                return std::make_tuple(false, *(itr++));
-            }
-            else
-            {
-                reverse=true;
-                ritr=code.rbegin();
-                return std::make_tuple(true, *(ritr++));
-            }
-        }
-    }
-};
-template <size_t N>
-const typename std::array<size_t,1<<N> GrayCodeGen<N, true>::code = toArray(GrayCode<N>::gc);
+template<size_t I>
+auto constexpr make_gc(typename std::enable_if<equal(I,1),bool>::type=false){
+    return std::make_tuple(0UL,1UL);
+}
+template<size_t I>
+auto constexpr make_gc(typename std::enable_if<!equal(I,1),bool>::type=false){
+    return std::tuple_cat(make_gc<I - 1>(), tuple_reverse_add(make_gc<I  - 1>(), 1 << (I - 1)));
+}
 
-template <size_t N>
-class GrayCodeGen<N, false>:protected GrayCodeGen<N-TSIZE>
-{
-    bool reverse;
-    typename std::array<size_t,1<<TSIZE>::const_iterator itr;
-    typename std::array<size_t,1<<TSIZE>::const_reverse_iterator ritr;
-    static const typename std::array<size_t,1<<TSIZE> code ;
-
-  public:
-    GrayCodeGen() : itr(code.begin()),ritr(code.rbegin()),reverse(false)
-    {
-    }
-    size_t Current(){
-        if (reverse)
-        {
-            return *ritr<<(N-TSIZE);
-        }
-        else
-        {
-            return *itr<<(N-TSIZE);
-        }
-    }
-
-    auto NextInternal()
-    {
-        if (reverse)
-        {
-            if (ritr+1 != code.rend())
-            {
-                return std::make_tuple(false, *(++ritr)<<(N-TSIZE));
-            }
-            else
-            {
-                reverse=false;
-                itr=code.begin();
-                return std::make_tuple(true, *(itr)<<(N-TSIZE));
-            }
-        }
-        else
-        {
-            if (itr+1 != code.end())
-            {
-                return std::make_tuple(false, *(++itr)<<(N-TSIZE));
-            }
-            else
-            {
-                reverse=true;
-                ritr=code.rbegin();
-                return std::make_tuple(true, *(ritr)<<(N-TSIZE));
-            }
-        }
-    }
-    auto Next()
-    {
-        size_t Val;
-        bool II=false;
-        auto NextSub= GrayCodeGen<N-TSIZE>::Next();
-
-        if(std::get<0>(NextSub)){
-            std::tie(II,Val)=NextInternal();
-        }else{
-            Val=Current();
-        }
-        return std::make_tuple(II,Val|std::get<1>(NextSub));
-    }
-};
-template <size_t N>
-const typename std::array<size_t,1<<TSIZE> GrayCodeGen<N, false>::code = toArray(GrayCode<TSIZE>::gc);
 
 int main()
 {
-    constexpr int N=30;
-    GrayCodeGen<N> gc;
-    for (int i=0;i<(1<<N);i++)
-    {
-        auto xx=gc.Next();
-        //std::cout<< std::bitset<N>(std::get<1>(xx)) << std::endl;
-    }
+   constexpr auto x= make_gc<8>();
+   std::cout<<x;
 }
